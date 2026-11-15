@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.tfplan
+
+# Ansible
+ansible/inventory/hosts.ini
+ansible/group_vars/all/terraform.yml
+ansible/group_vars/all/local.yml
+ansible/group_vars/all/vault.yml
+.vault_pass*
+
+# Secrets
+*.pem
+*.key
+.env
+
+# Files moved aside during refactoring
+_to_delete/
